@@ -19,7 +19,7 @@
     margin-top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .logo-and-nav-links-container{
@@ -179,6 +179,7 @@ a{
  color: white;
  line-height: 7.938rem;
  text-align: center;
+ font-weight: 500;
 }
 
 .tagline-container{
@@ -439,4 +440,255 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.podcast-container{
+    background-image: url("./Images/deepmind-podcast-background-image.webp");
+    background-color: #D8DBDF;
+    padding: 12.188rem 14.438rem  7.25rem 14.438rem  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.podcast-headline-and-tagline-container{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 6.813rem;
+}
+
+.podcast-headline-tagline-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    padding: 2.25rem 0 2.25rem 0;
+}
+
+.podcast-tagline-container{
+    width: fit-content;
+    height: auto;
+}
+
+.podcast-tagline-container p{
+    font-size: 0.688rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.podcast-headline-container{
+    width: 100%;
+    height: auto;
+}
+
+.podcast-headline-container h1{
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+.podcast-timeline-container{
+    width: 100%;
+    height: auto;
+}
+
+.podcast-timeline-container p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: center;
+    color: white;
+}
+
+.podcast-cta-container{
+    width: fit-content;
+    height: auto;
+}
+
+.podcast-cta-container button{
+    width: fit-content;
+    height: auto;
+    background-color: white;
+    color: #0029B9;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 50rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.technologies-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 5rem;
+    padding: 5.625rem 4.5rem 5.625rem  4.5rem;
+}
+
+.technologies-header-tagline-and-cta-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+
+.technologies-header-andtagline-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2.25rem;
+}
+
+.technologies-header-container{
+    width: fit-content;
+    height: auto;
+}
+
+.technologies-header-container h2{
+    font-size: 3rem;
+    line-height: 2.75rem;
+    color: #202124;
+}
+
+h2{
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    font-weight: 500;
+    color: #202124;
+    text-align: center;
+}
+
+.technologies-tagline-container{
+    width: 100%;
+    height: auto;
+}
+
+.technologies-tagline-container p{
+    font-size: 1.125rem; 
+    line-height: 1.75rem; 
+    color: #5F6368;
+    text-align: center;
+}
+
+.technologies-cta-container{
+    width: fit-content;
+    height: auto;
+}
+
+.technologies-cta-container button{
+    width: fit-content;
+    height: auto;
+    background-color: white;
+    color: #0029B9;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 50rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.technologies-card-conatiner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+.project-astra{
+    background-image: url("./Images/project-astra-background-image.webp");
+    background-color: #D8DBDF;
+    padding: 12.188rem 14.438rem  7.25rem 14.438rem  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.podcast-headline-and-tagline-container{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 6.813rem;
+}
+
+.podcast-headline-tagline-container{
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width:839px){
+
+    .nav-links-container{
+        width: fit-content;
+        height: auto;
+        display: none;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        column-gap: 0.5rem;
+    }
+
+    .latest-news-and-podcast-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5rem;
+        padding: 7.5rem 2rem 5.625rem 2rem;
+        justify-content: start;
+        align-items: start;
+        background-color: white;
+    }
+
+    .latest-news-cards-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    .latest-news-card-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        border: 1px solid #D8DBDF;
+        border-radius: 0.5rem;
+    }
+
 }
